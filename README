@@ -1,0 +1,34 @@
+SET-EXECUTIONPOLICY REMOTESIGNED
+
+CONFIGURANDO SSH KEYS, GIT E GITHUB
+    DIGITE NO TERMINAL: ssh-keygen.exe
+        Irá gerar a chave em uma pasta especifica 
+    DIGITE NO TERMINAL: CAT (CAMINHO DO ARQUIVO)
+
+CONFIGURANDO GIT
+    DIGITE NO TERMINAL: git init
+        Vai iniciar o git na pasta
+    DIGITE NO TERMINAL: git branch -m main
+        Mudar o nome do repositorio para main
+    DIGITE NO TERMINAL: git config user.name "Erick Ribeiro"
+    DIGITE NO TERMINAL: git config user.email "erickribgo200212@gmail.com"
+    DIGITE NO TERMINAL: git config core.eol lf
+    DIGITE NO TERMINAL: git config core.autocrlf input
+    DIGITE NO TERMINAL: git add .
+        Adicionar todos os arquivos
+    DIGITE NO TERMINAL: git commit -m ""
+    DIGITE NO TERMINAL: git remote add origin
+        Para adicionar o caminho do repositorio
+    DIGITE NO TERMINAL: git push origin main -u
+    DIGITE NO TERMINAL: git status
+        Para saber oq foi alterado
+
+    PARA ATUALIZAÇÕES
+    DIGITE NO TERMINAL: git status
+        Para saber oq foi alterado
+    DIGITE NO TERMINAL: git add .
+        Adicionar todos os arquivos
+    DIGITE NO TERMINAL: git commit -m "TEXTO DO COMMIT"
+    DIGITE NO TERMINAL: git remote add origin
+        Para adicionar o caminho do repositorio
+    DIGITE NO TERMINAL: git push
